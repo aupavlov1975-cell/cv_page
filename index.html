@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>SV Page</title>
+</head>
+<body>
+    <header class="header">
+        <img src="assets/avatar.jpg" alt="my photo" class="avatar">
+        <h1 class="header_title">Alexander P | CV</h1>
+        <h2 class="header_subtitle">Frontend Developer</h2>
+    </header>
+
+    <main>
+        <section class="skills">
+            <h3>Навыки</h3>
+            <details>
+                <summary>Лист навыков:</summary>
+                <ol>
+                    <li>1. C++</li>
+                    <li>2. QML</li>
+                    <li>3. HTML</li>
+                    <li>4. CSS</li>
+                    <li>5. JavaScript</li>
+                    <li>6. React</li>
+                    <li>7. TypeScript</li>
+                </ol>
+            </details>
+        </section>
+
+        <article>
+            <h4 class="artical">Коротко о себе</h4>
+            <p>
+                Далеко-далеко за словесными горами в стране гласных и согласных, живут рыбные тексты. Дороге которой власти однажды моей себя по всей, большого предупредила жизни дал диких текст курсивных о ведущими эта проектах толку рыбного взобравшись продолжил снова последний то за всеми, приставка на берегу. Даже взгляд предупредила семантика океана всеми безопасную залетают силуэт возвращайся необходимыми.
+            </p>
+        </article>
+
+        <section class="gallery">
+            <h3> Галерея </h3>
+            <img src="https://placehold.co/250x250" alt="placehold image">
+            <img src="https://placehold.co/250x250" alt="placehold image">
+            <img src="https://placehold.co/250x250" alt="placehold image">
+        </section>
+
+        <hr class="separator">
+
+        <section >
+            <h3>Видео об обучении</h3>
+            <iframe class="video" src="https://www.youtube.com/embed/8Z_ZIp3CZzQ" title="The German Math Olympiad Problem That 99% of Students Get Wrong! | Math Olympiad Mathematics " allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </section>
+        <section class="hobbies">
+            <h4> Мои увлечения </h4>
+            <details>
+                <summary> Список увлечений</summary>
+                <ol>
+                    <li>Обучение новому в IT</li>
+                    <li>Спорт</li>
+                    <li>Походы</li>
+                </ol>
+            </details>
+        </section>
+        
+        <hr class="separator">
+
+        <section class="education">
+            <h3>Образование</h3>
+            <table class="ed_table">
+                <thead>
+                    <tr>
+                        <td>Где обучался</td>
+                        <td>профессия</td>
+                        <td>Год</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>УПИ Колледж</td>
+                        <td>Программист</td>
+                        <td>2001</td>
+                    </tr>
+                    <tr>
+                        <td>УПИ</td>
+                        <td>Менеджер</td>
+                        <td>2006</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section class="quote">
+            <h3>Цитата</h3>
+            <blockquote>
+                <b>Действиея - это единственный путь к успеху!</b>
+            </blockquote>
+        </section>
+            
+        <section class="ineraction">
+            <h3>Форма для связи</h3>
+            <form action="https://ya.ru" method="get" target="_blank" class="form">
+
+                <fieldset>
+                    <legend>Заполнить поля</legend>
+                    
+                    <label for="firstNmae_ID">Указать Имя:</label>
+                    <br>
+                    <input type="text" name="firstName" id="firstNmae_ID" placeholder="Имя" required>
+                    
+                    <br>
+                    
+                    <label for="lastNmae_ID">Указать Фамилию:</label>
+                    <br>
+                    <input type="text" name="lastName" id="lastNmae_ID" placeholder="Фамилия"  required>
+                    
+                    <br>
+                    
+                    <label for="email_ID">EMail:</label>
+                    <br>
+                    <input type="email" name="email" id="email_ID" placeholder="email" required>
+                </fieldset>
+
+                <br>
+
+                <textarea name="question" id="question_ID" placeholder="задать вопрос"></textarea>
+                <br>
+                <button type="submit">
+                    Submit
+                </button>
+            </form>
+        </section>
+        <br>
+
+    </main>
+    <br>
+    <footer>
+        <address>
+            <a href="mailto:apavlov@bk.ru">apavlov@bk.ru</a>
+            <br><br>
+            <a href="tel:+79889913423"  class="contact_link">+7(988)991-34-23</a>
+        </address>
+    </footer>
+
+</body>
+</html>
